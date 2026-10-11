@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>PetSphere Training Reservation</title>
+</head>
+<body>
+
+<h2>Pet Training Reservation Form</h2>
+
+<form>
+    Owner Name:
+    <input type="text" name="owner" required><br><br>
+
+    Pet Name:
+    <input type="text" name="petname" required><br><br>
+
+    Pet Type:
+    <select name="pettype">
+        <option>Dog</option>
+        <option>Cat</option>
+        <option>Bird</option>
+        <option>Other</option>
+    </select><br><br>
+
+    Training Type:
+    <select name="training">
+        <option>Basic Training</option>
+        <option>Obedience Training</option>
+        <option>Behaviour Training</option>
+        <option>Advanced Training</option>
+    </select><br><br>
+
+    Preferred Date:
+    <input type="date" name="date" required><br><br>
+
+    Preferred Time:
+    <input type="time" name="time" required><br><br>
+
+    Experience Level:
+    <input type="radio" name="level" value="Beginner"> Beginner
+    <input type="radio" name="level" value="Advanced"> Advanced
+    <br><br>
+
+    Phone Number:
+    <input type="tel" name="phone" required><br><br>
+
+    <input type="submit" value="Reserve Training">
+    <input type="reset" value="Clear">
+</form>
+
+</body>
+</html>
